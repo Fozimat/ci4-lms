@@ -1,0 +1,283 @@
+CRITICAL - 2023-10-31 02:47:25 --> Invalid file: "layouts/template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/template.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layouts/template', [], true)
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 4 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 02:54:14 --> Undefined variable $tanggap_bencana
+in APPPATH\Views\learning\index.php on line 21.
+ 1 APPPATH\Views\learning\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggap_bencana', 'D:\\test-dana\\app\\Views\\learning\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 02:54:29 --> Undefined variable $tanggap_bencana
+in APPPATH\Views\learning\index.php on line 21.
+ 1 APPPATH\Views\learning\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggap_bencana', 'D:\\test-dana\\app\\Views\\learning\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 02:55:04 --> Attempt to read property "learning_topic" on array
+in APPPATH\Views\learning\index.php on line 24.
+ 1 APPPATH\Views\learning\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "learning_topic" on array', 'D:\\test-dana\\app\\Views\\learning\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 02:55:11 --> Attempt to read property "learning_topic" on array
+in APPPATH\Views\learning\index.php on line 24.
+ 1 APPPATH\Views\learning\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "learning_topic" on array', 'D:\\test-dana\\app\\Views\\learning\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 02:55:21 --> Attempt to read property "learning_topic" on array
+in APPPATH\Views\learning\index.php on line 24.
+ 1 APPPATH\Views\learning\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "learning_topic" on array', 'D:\\test-dana\\app\\Views\\learning\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 02:55:50 --> Attempt to read property "topic_category" on array
+in APPPATH\Views\learning\index.php on line 24.
+ 1 APPPATH\Views\learning\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "topic_category" on array', 'D:\\test-dana\\app\\Views\\learning\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 03:04:20 --> Attempt to read property "topic_category" on array
+in APPPATH\Views\learning\index.php on line 24.
+ 1 APPPATH\Views\learning\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "topic_category" on array', 'D:\\test-dana\\app\\Views\\learning\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 03:04:34 --> Attempt to read property "topic_category" on array
+in APPPATH\Views\learning\index.php on line 24.
+ 1 APPPATH\Views\learning\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "topic_category" on array', 'D:\\test-dana\\app\\Views\\learning\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 03:04:47 --> Attempt to read property "learning_topic" on array
+in APPPATH\Views\learning\index.php on line 24.
+ 1 APPPATH\Views\learning\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "learning_topic" on array', 'D:\\test-dana\\app\\Views\\learning\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 03:04:48 --> Attempt to read property "learning_topic" on array
+in APPPATH\Views\learning\index.php on line 24.
+ 1 APPPATH\Views\learning\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "learning_topic" on array', 'D:\\test-dana\\app\\Views\\learning\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 03:08:35 --> Attempt to read property "learning_topic" on array
+in APPPATH\Views\learning\index.php on line 24.
+ 1 APPPATH\Views\learning\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "learning_topic" on array', 'D:\\test-dana\\app\\Views\\learning\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 03:09:13 --> Attempt to read property "learning_topic" on array
+in APPPATH\Views\learning\index.php on line 24.
+ 1 APPPATH\Views\learning\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "learning_topic" on array', 'D:\\test-dana\\app\\Views\\learning\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\learning\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 5 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 03:41:13 --> include(layout/style): Failed to open stream: No such file or directory
+in APPPATH\Views\layout\template.php on line 8.
+ 1 APPPATH\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layout/style): Failed to open stream: No such file or directory', 'D:\\test-dana\\app\\Views\\layout\\template.php', 8)
+ 2 APPPATH\Views\layout\template.php(8): include()
+ 3 SYSTEMPATH\View\View.php(228): include('D:\\test-dana\\app\\Views\\layout\\template.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/template', [], true)
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/index', [], true)
+ 7 APPPATH\Controllers\LearningController.php(25): view('learning/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+CRITICAL - 2023-10-31 03:46:17 --> Invalid file: "learning/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('learning/create.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('learning/create', [], true)
+ 3 APPPATH\Controllers\LearningController.php(33): view('learning/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->show('create')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+ERROR - 2023-10-31 04:01:21 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in D:\test-dana\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\test-dana\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `le...', 0)
+#1 D:\test-dana\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `le...')
+#2 D:\test-dana\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `le...')
+#3 D:\test-dana\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `le...', Array, false)
+#4 D:\test-dana\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\test-dana\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\test-dana\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\test-dana\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\test-dana\app\Models\Learning.php(28): CodeIgniter\BaseModel->save(Array)
+#9 D:\test-dana\app\Controllers\LearningController.php(47): App\Models\Learning->insertData(Array)
+#10 D:\test-dana\system\CodeIgniter.php(942): App\Controllers\LearningController->store()
+#11 D:\test-dana\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#12 D:\test-dana\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\test-dana\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 D:\test-dana\system\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\pu...')
+#15 {main}
+CRITICAL - 2023-10-31 04:01:21 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `learning` (`learning_topic`, `topic_category`, `learning_category`, `organizer`, `schedule`, `location`, `created_at`, `updated_at`) VALUES (:learning_topic:, :topic_category:, :learning_category:, :organizer:, :schedule:, :location:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Models\Learning.php(28): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\LearningController.php(47): App\Models\Learning->insertData([...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\test-dana\\public\\index.php')
+INFO - 2023-10-31 04:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 04:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 11:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
